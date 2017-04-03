@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+   <head>
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="css/mystyles.css" rel="stylesheet"> </head>
+
+<body background="bg.jpg">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="row row-header">
+            <div class="col-sm-4">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"> <img src="img/pizzahutlogo2.png" height=30 width=100></a>
+
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class="navbar-form navbar-right">
+                
+              
+                  <a class="SignInBtn" id="SignInBtn">Sign in &nbsp;</a>
+
+                     <div class="SignInModal" id="SignInModal">
+                    
+                  <div class="SignInModal-Content" id="SignInModal-Content">
+                    <p> LOGIN</p>
+                    <form action="login.php" method="POST">
+                      <label>Email Address:</label><br>
+                      <input type="email" id="email" name="email"><br>
+
+                      <label>Password:</label><br>
+                      <input type="password" id="pwd" name="pwd"><br><br>
+                    <input type="submit" name="Login" value="Login" id="Login">
+</form>
+
+                        </div>
+                      </div>
+                    <a href="#">Create an Account &nbsp;</a>
+                    <a href="#">Find a Pizza Hut &nbsp;</a>
+                    <a href="#">Espanol &nbsp;</a>
+                    <br>
+                     <div class="navbar-form navbar-right">
+                    <a href="#"id="re" >Reorder</a>
+                  
+                </div>
+              
+    </div>
+</div>
+<div class="container">
+    <div class="row no-gutter">
+        <div class="col-md-12">
+            <div class="navbar-form">
+               <button type="button" class="btn-pizza">Pizza</button> 
+                <button type="button" class="btn-pasta">Pasta</button> 
+                <button type="button" class="btn-wings">Wings</button> 
+
+   <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">More  <span class="caret"></span></button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Sides</a>
+    <a href="#">Drinks</a>
+    
+  
+  </div>
+</div>
+<button type="button" class="btn-deals">Deals</button> 
+
+
+<button type="button" class="btn-1">Start Your Order</button>
+
+</div>
+</div>
+
+</div>
+</div>
+      
+    </nav>
+<!--<div class="SidesPic">
+    <img src="https://i.ytimg.com/vi/Se2WeG7lNI0/maxresdefault.jpg" width=1170  height=500>
+</div>-->
+  <div class="PastaPic">
+    <img src="http://i.ndtvimg.com/i/2015-12/pasta_625x350_41450937320.jpg" width="1170" height="500">
+
+</div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="box-pasta1">
+                    <p id="Item-Name">Tuscani Chicken Alfredo</p>
+                    <p id="Item-Description">Grilled chicken breast strips and rotini pasta oven-baked<br> in a creamy Alfredo sauce with a layer of melted <br>cheese.</p>   
+                    <img src="https://www.chowgofer.com/editable/images/menuitems/6011.png">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="box-pasta2">
+                    <p id="Item-Name2">Tuscani Meaty Marinara</p>
+                    <p id="Item-Description2">Savory Italian-seasoned meat sauce and rotini pasta<br> topped with cheese and oven-baked. <br>Served with an order of breadsticks.</p>
+
+                    <img src="https://www.chowgofer.com/editable/images/menuitems/6012.png">
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/moreLink.js"></script>
+      <script src="js/SignInModal.js"></script>
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+   <head>
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="css/mystyles.css" rel="stylesheet"> </head>
+
+<body background="bg.jpg">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="row row-header">
+            <div class="col-sm-4">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"> <img src="img/pizzahutlogo2.png" height=30 width=100></a>
+
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class="navbar-form navbar-right">
+                
+                    
+                  <a class="SignInBtn" id="SignInBtn">Sign in &nbsp;</a>
+
+                     <div class="SignInModal" id="SignInModal">
+                    
+                  <div class="SignInModal-Content" id="SignInModal-Content">
+                    <p> LOGIN</p>
+                    <form action="login.php" method="POST">
+                      <label>Email Address:</label><br>
+                      <input type="email" id="email" name="email"><br>
+
+                      <label>Password:</label><br>
+                      <input type="password" id="pwd" name="pwd"><br><br>
+                    <input type="submit" name="Login" value="Login" id="Login">
+</form>
+
+                        </div>
+                      </div>
+                    <a href="#">Create an Account &nbsp;</a>
+                    <a href="#">Find a Pizza Hut &nbsp;</a>
+                    <a href="#">Espanol &nbsp;</a>
+                    <br>
+                     <div class="navbar-form navbar-right">
+                    <a href="#"id="re" >Reorder</a>
+                    <a href="#"id="he">Hello</a>
+                </div>
+              
+    </div>
+</div>
+<div class="container">
+    <div class="row no-gutter">
+        <div class="col-md-12">
+            <div class="navbar-form">
+               <button type="button" class="btn-pizza">Pizza</button> 
+                <button type="button" class="btn-pasta">Pasta</button> 
+                <button type="button" class="btn-wings">Wings</button> 
+
+   <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">More  <span class="caret"></span></button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Sides</a>
+    <a href="#">Drinks</a>
+    <a href="#">Desserts</a>
+  
+  </div>
+</div>
+<button type="button" class="btn-deals">Deals</button> 
+
+
+<button type="button" class="btn-1">Start Your Order</button>
+
+</div>
+</div>
+
+</div>
+</div>
+      
+    </nav>
+<!--<div class="SidesPic">
+    <img src="https://i.ytimg.com/vi/Se2WeG7lNI0/maxresdefault.jpg" width=1170  height=500>
+</div>-->
+  <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="http://i.imgur.com/7Li3O66.png" style="width:100%" "height:80%">
+  <div class="text">Sides</div>
+</div>
+
+<div class="mySlides">
+  <div class="numbertext">2 / 3</div>
+  <img src="http://i.ndtvimg.com/i/2015-12/pasta_625x350_41450937320.jpg" style="width:100%">
+  <div class="text">Sides</div>
+</div>
+
+<div class="mySlides">
+  <div class="numbertext">3 / 3</div>
+  <img src="http://www.foodnavigator-asia.com/var/plain_site/storage/images/publications/food-beverage-nutrition/foodnavigator-asia.com/policy/sin-tax-of-40-proposed-to-cover-indian-soft-drinks/10399013-1-eng-GB/Sin-tax-of-40-proposed-to-cover-Indian-soft-drinks_strict_xxl.jpg" style="width:100%">
+  <div class="text">Sides</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="box-drink1">
+                    <p id="Item-Name">Pepsi</p>
+                    <p id="Item-Description">The bold, robust, effervescently magic cola.</p>   
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Pepsi_logo_2014.svg/754px-Pepsi_logo_2014.svg.png">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="box-drink2">
+                    <p id="Item-Name2">Diet Pepsi</p>
+                    <p id="Item-Description2">Light. Crisp. Refreshing.<br> With zero sugar, zero calories, and zero carbs.</p>
+
+                    <img src="https://s-media-cache-ak0.pinimg.com/originals/0c/b4/f9/0cb4f90ea576a482ba83d4df0609482d.png">
+        </div>
+    </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="box-drink3">
+      <p id="Item-Name3">Mtn Dew</p>
+      <p id="Item-Description3">Way more energizing and thirst quenching,<br> with a one-of-a-kind great taste.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Mountain_Dew_logo.svg/200px-Mountain_Dew_logo.svg.png">
+</div>
+</div>
+
+
+  <div class="col-md-6">
+    <div class="box-drink4">
+      <p id="Item-Name4">Mist Twist</p>
+      <p id="Item-Description3">A crisp, refreshing & caffeine free Lemon-Lime<br> flavor soda with a splash of real juice.</p>
+ 
+     
+  <img src="http://peakcitypigfest.com/wp-content/uploads/2016/05/mist-twist.png"> 
+</div>
+</div>
+
+  <p>They come on the side, but taste good enough to be the main event. Crunchy, crispy, and calling your name - our fries come plain or seasoned. Want the recipe? Too bad.</p>
+</div>
+</div>
+</div>
+<script>
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+   setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/moreLink.js"></script>
+    <script src="js/SignInModal.js"></script>
+</body>
+</html>

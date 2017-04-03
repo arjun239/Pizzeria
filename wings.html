@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+   <head>
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="css/mystyles.css" rel="stylesheet"> </head>
+
+<body background="bg.jpg">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="row row-header">
+            <div class="col-sm-4">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"> <img src="img/pizzahutlogo2.png" height=30 width=100></a>
+
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class="navbar-form navbar-right">
+                
+                    
+                  <a class="SignInBtn" id="SignInBtn">Sign in &nbsp;</a>
+
+                     <div class="SignInModal" id="SignInModal">
+                    
+                  <div class="SignInModal-Content" id="SignInModal-Content">
+                    <p> LOGIN</p>
+                    <form action="login.php" method="POST">
+                      <label>Email Address:</label><br>
+                      <input type="email" id="email" name="email"><br>
+
+                      <label>Password:</label><br>
+                      <input type="password" id="pwd" name="pwd"><br><br>
+                    <input type="submit" name="Login" value="Login" id="Login">
+</form>
+
+                        </div>
+                      </div>
+                    <a href="#">Create an Account &nbsp;</a>
+                    <a href="#">Find a Pizza Hut &nbsp;</a>
+                    <a href="#">Espanol &nbsp;</a>
+                    <br>
+                     <div class="navbar-form navbar-right">
+                    <a href="#"id="re" >Reorder</a>
+                  
+                </div>
+              
+    </div>
+</div>
+<div class="container">
+    <div class="row no-gutter">
+        <div class="col-md-12">
+            <div class="navbar-form">
+               <button type="button" class="btn-pizza">Pizza</button> 
+                <button type="button" class="btn-pasta">Pasta</button> 
+                <button type="button" class="btn-wings">Wings</button> 
+
+   <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">More  <span class="caret"></span></button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Sides</a>
+    <a href="#">Drinks</a>
+    
+  
+  </div>
+</div>
+<button type="button" class="btn-deals">Deals</button> 
+
+
+<button type="button" class="btn-1">Start Your Order</button>
+
+</div>
+</div>
+
+</div>
+</div>
+      
+    </nav>
+<!--<div class="SidesPic">
+    <img src="https://i.ytimg.com/vi/Se2WeG7lNI0/maxresdefault.jpg" width=1170  height=500>
+</div>-->
+  <div class="WingsPic">
+    <img src="http://i.huffpost.com/gen/2136092/images/o-CHICKEN-WINGS-facebook.jpg" width="1170" height="500">
+
+</div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="box-wings1">
+                    <p id="Item-Name">Traditional Bone-In</p>
+                    <p id="Item-Description">Don’t fix what ain’t broke. Classic, juicy bone-in wings<br> served perfectly crispy and tossed in your choice of<br> signature sauce</p>   
+                    <img src="http://static.wixstatic.com/media/7b591d_1baf4c1a6da74ad19110fe741c799770.jpg_srz_960_768_85_22_0.50_1.20_0.00_jpg_srz">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="box-wings2">
+                    <p id="Item-Name2">Breaded Bone-Out</p>
+                    <p id="Item-Description2">Crispy on the outside, juicy on the inside.<br> Flavor in, bone out. 100% all white meat chicken<br> covered in savory breading, tossed in your choice of <br>sauce.</p>
+
+                    <img src="https://s-media-cache-ak0.pinimg.com/originals/de/03/3d/de033d46272874d5a256a5ecdddbf85c.png">
+        </div>
+    </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="box-wings3">
+      <p id="Item-Name3">Individual Wing Meal</p>
+      <p id="Item-Description3">6 - 8 WingStreet® Wings with your choice of sauce<br> and an order of Fries.</p>
+      <img src="https://www.pizzahut.com/assets/w/tile/thor/Individual_Wing_Meal.png">
+</div>
+</div>
+  <div class="col-md-6">
+    <div class="box-wings4">
+      <p id="Item-Name4">Family Wing Meal</p>
+      <p id="Item-Description3">12 - 16 WingStreet® Wings with your choice of<br> two sauces and two orders of Fries.</p>
+ 
+     
+  <img src="https://www.pizzahut.com/assets/w/tile/thor/FWingMeal_Tile.png"> 
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/moreLink.js"></script>
+        <script src="js/SignInModal.js"></script>
+</body>
+</html>
